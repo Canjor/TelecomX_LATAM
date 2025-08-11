@@ -1,4 +1,7 @@
 La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes.
+
 El objetivo del proyecto es recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información valiosa. A partir de este análisis, el equipo de Data Science podrá avanzar en modelos predictivos y desarrollar estrategias para reducir la evasión.
+
 El proceso inició con la carga de los datos a partir de un archivo .json. El resultado fue un conjunto de datos con información anidada que dificultaba su análisis por lo que fue necesario normalizar los datos extrayendo la información en columnas que contengan un solo tipo de valor, cambiando valores textuales por valores numéricos para facilitar el análisis y eliminando registros inconsistentes o incompletos.
+
 El análisis exploratorio comenzó obteniendo estadísticas descriptivas como la media, la desviación estándar, valores mínimo y máximo y cuartiles. Después, se realizó un gráfico de pastel que nos ayuda a visualizar rápidamente el porcentaje de usuarios activos y que se han dado de baja (evasión). Luego, se realizó una serie de gráficos que comparaban la cantidad de usuarios activos con variables categóricas como el género, tipo de contrato, método de pago, etc. Finalmente, se generó una serie de diagramas de caja para visualizar la distribución de datos numéricos.
